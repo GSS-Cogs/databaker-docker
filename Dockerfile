@@ -6,5 +6,10 @@ RUN \
   && pip install --no-cache-dir jupyter databaker pandas requests rdflib cachecontrol[filecache] SPARQLWrapper titlecase behave \
   && apk del .dev
 
+COPY cucumber-format.patch /tmp/
+RUN \
+     cd /usr/local/lib/python3*/site-packages/behave/formatter \
+  && patch -p1 < /tmp/cucumber-format.patch
+
 VOLUME /workspace
 WORKDIR /workspace
