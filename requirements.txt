@@ -7,3 +7,8 @@ cachecontrol[filecache]
 SPARQLWrapper
 titlecase
 behave
+pyexcel
+pyexcel-io
+pyexcel-ods
+pyexcel-xls
+html2text
