@@ -1,0 +1,9 @@
+jupyter
+databaker
+pandas
+requests
+rdflib
+cachecontrol[filecache]
+SPARQLWrapper
+titlecase
+behave

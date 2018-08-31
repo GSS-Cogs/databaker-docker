@@ -1,10 +1,7 @@
-FROM python:3-alpine
+FROM python:3
 
-RUN \
-     apk add --no-cache libxslt libxml2 libstdc++ \
-  && apk add --no-cache -t .dev g++ python3-dev libxml2-dev libxslt-dev \
-  && pip install --no-cache-dir jupyter databaker pandas requests rdflib cachecontrol[filecache] SPARQLWrapper titlecase behave \
-  && apk del .dev
+COPY requirements.txt ./
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY cucumber-format.patch /tmp/
 RUN \
