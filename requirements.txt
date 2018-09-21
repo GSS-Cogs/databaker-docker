@@ -10,5 +10,7 @@ behave
 pyexcel
 pyexcel-io
 pyexcel-ods
+pyexcel-ods3
+pyexcel-odsr
 pyexcel-xls
 html2text
