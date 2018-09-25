@@ -13,4 +13,5 @@ pyexcel-ods
 pyexcel-ods3
 pyexcel-odsr
 pyexcel-xls
+pyexcel-text
 html2text
