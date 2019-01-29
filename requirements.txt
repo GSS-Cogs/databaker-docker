@@ -1,5 +1,5 @@
 jupyter
-databaker
+git+https://github.com/ONS-OpenData/databaker.git@gss_speedup
 pandas
 requests
 rdflib
