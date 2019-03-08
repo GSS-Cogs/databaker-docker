@@ -16,3 +16,4 @@ pyexcel-xls
 pyexcel-text
 html2text
 git+https://github.com/ONS-OpenData/gss-utils.git@v0.3.1
+chardet
