@@ -8,6 +8,7 @@ CacheControl[filecache]
 SPARQLWrapper==1.8.4
 titlecase==0.12.0
 behave==1.2.6
+fingertips-py==0.2
 pyexcel==0.5.13
 pyexcel-io==0.5.17
 pyexcel-ods==0.5.6
