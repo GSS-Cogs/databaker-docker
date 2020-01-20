@@ -18,5 +18,5 @@ pyexcel-xls==0.5.8
 pyexcel-text==0.2.7.1
 python-box==3.4.5
 html2text==2018.1.9
-git+https://github.com/GSS-Cogs/gss-utils.git@v0.5.15
+git+https://github.com/GSS-Cogs/gss-utils.git@v0.5.16
 chardet==3.0.4
