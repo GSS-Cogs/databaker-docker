@@ -1,7 +1,7 @@
 jupyter==1.0.0
 jupytext==1.1.1
-git+https://github.com/GSS-Cogs/databaker.git@gss_speedup
-pandas==0.24.2
+git+https://github.com/GSS-Cogs/databaker.git@gss_speedup#egg=databaker
+pandas==0.25.3
 requests==2.21.0
 rdflib==4.2.2
 CacheControl[filecache]
@@ -18,5 +18,5 @@ pyexcel-xls==0.5.8
 pyexcel-text==0.2.7.1
 python-box==3.4.5
 html2text==2018.1.9
-git+https://github.com/GSS-Cogs/gss-utils.git@v0.5.16
+git+https://github.com/GSS-Cogs/gss-utils.git@v0.5.17#egg=gss-utils
 chardet==3.0.4
