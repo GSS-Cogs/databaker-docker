@@ -1,7 +1,8 @@
 FROM python:3.7
 
-COPY requirements.txt ./
-RUN pip3 install --no-cache-dir -r requirements.txt
+COPY Pipfile Pipfile.lock ./
+RUN pip3 install --no-cache-dir pipenv
+RUN pipenv install --system
 
 COPY cucumber-format.patch /tmp/
 RUN \
