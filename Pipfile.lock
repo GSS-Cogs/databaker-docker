@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3f8c133a7733bd9410100ce9bf8425592957dd5030b46255382a622b7f5b5d5c"
+            "sha256": "0d1f60c1ccfa05f9062ce90c2234de8f56770dc8b11ec73a81ee419e9cd8759d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -105,7 +105,7 @@
         },
         "gss-utils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "c6ac7d357d87a718f1b5a1d27cd23f2a32b9dc62"
+            "ref": "4ea3d7141d22c2b20507e6aef53e55069cfbbf52"
         },
         "html2text": {
             "hashes": [
@@ -777,10 +777,10 @@
         },
         "zipp": {
             "hashes": [
-                "sha256:ccc94ed0909b58ffe34430ea5451f07bc0c76467d7081619a454bf5c98b89e28",
-                "sha256:feae2f18633c32fc71f2de629bfb3bd3c9325cd4419642b1f1da42ee488d9b98"
+                "sha256:5c56e330306215cd3553342cfafc73dda2c60792384117893f3a83f8a1209f50",
+                "sha256:d65287feb793213ffe11c0f31b81602be31448f38aeb8ffc2eb286c4f6f6657e"
             ],
-            "version": "==2.1.0"
+            "version": "==2.2.0"
         }
     },
     "develop": {}
