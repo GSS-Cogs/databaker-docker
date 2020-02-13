@@ -9,7 +9,7 @@ verify_ssl = true
 jupyter = "*"
 jupytext = "*"
 databaker = {git = "https://github.com/GSS-Cogs/databaker.git",ref = "gss_speedup"}
-gss-utils = {git = "https://github.com/GSS-Cogs/gss-utils.git",ref = "v0.5.18"}
+gss-utils = {git = "https://github.com/GSS-Cogs/gss-utils.git",ref = "v0.5.19"}
 pandas = "==0.25.3"
 titlecase = "*"
 behave = "*"
