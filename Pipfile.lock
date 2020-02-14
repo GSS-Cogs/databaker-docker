@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "515e8c1ee68e512a26fc9ae37e03bac286b0f676efb9af6af7e5c829239cb6eb"
+            "sha256": "ef887b7ced59db637f90f670959df48070fa818fee3f28fa7f6553cccf9abfb5"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -21,7 +21,7 @@
                 "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
                 "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
             ],
-            "markers": "platform_system == 'Darwin'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==0.1.0"
         },
         "attrs": {
@@ -113,7 +113,7 @@
         },
         "gss-utils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "b4940e00272dff4861016e8a7471fe5ae0fc0955"
+            "ref": "19644fb4ad28ca35f8e2671b03c529568b7663d6"
         },
         "html2text": {
             "hashes": [
