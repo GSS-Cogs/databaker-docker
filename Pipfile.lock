@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "01d094f305c4596ebc65ff393e395b88d614798046ae47445fe81fe45b2fe23d"
+            "sha256": "6a2a92058aad5c68b1ff4e3dcf9c46a51ed9eef7daee34d5ed7fe92604273c69"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -40,6 +40,7 @@
         },
         "bleach": {
             "hashes": [
+                "sha256:44f69771e2ac81ff30d929d485b7f9919f3ad6d019b6b20c74f3b8687c3f70df",
                 "sha256:aa8b870d0f46965bac2c073a93444636b0e1ca74e9777e34f03dd494b8a59d48"
             ],
             "version": "==3.1.1"
@@ -104,7 +105,7 @@
         },
         "gss-utils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "68d6357fb0bc9bb1d3b0a33d2165373bd97bcd12"
+            "ref": "4942b2b2b1cd0f1f6308454ad39b3513dbe2aab3"
         },
         "html2text": {
             "hashes": [
@@ -116,10 +117,10 @@
         },
         "idna": {
             "hashes": [
-                "sha256:c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407",
-                "sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"
+                "sha256:7588d1c14ae4c77d74036e8c22ff447b26d0fde8f007354fd48a7814db15b7cb",
+                "sha256:a068a21ceac8a4d63dbfd964670474107f541babbd2250d61922f029858365fa"
             ],
-            "version": "==2.8"
+            "version": "==2.9"
         },
         "importlib-metadata": {
             "hashes": [
@@ -197,10 +198,10 @@
         },
         "jupyter-client": {
             "hashes": [
-                "sha256:60e6faec1031d63df57f1cc671ed673dced0ed420f4377ea33db37b1c188b910",
-                "sha256:d0c077c9aaa4432ad485e7733e4d91e48f87b4f4bab7d283d42bb24cbbba0a0f"
+                "sha256:1fac6e3be1e797aea33d5cd1cfa568ff1ee71e01180bc89f64b24ee274f1f126",
+                "sha256:ed2490c65f7e0987d1e7b2c4146371d58112489e558b3a835aefb86b7283f930"
             ],
-            "version": "==5.3.4"
+            "version": "==6.0.0"
         },
         "jupyter-console": {
             "hashes": [
@@ -537,11 +538,11 @@
         },
         "python-box": {
             "hashes": [
-                "sha256:700952c997c39b94fd4c9799cd94f0a42eb59bc005446055702ae99e50e996b1",
-                "sha256:7e1ce38dc153790e304d0b3923dff1d53c9889eaaa8f4cce315bb867b5aee843"
+                "sha256:2810256830b7f73d3b5ec3bdc98687965ee8889984eec3c8415df8390b62bdad",
+                "sha256:569a6ff775b5a813fbc67968fefadcb996d296bd489fea34605b4bfe94d2eeef"
             ],
             "index": "pypi",
-            "version": "==4.0.4"
+            "version": "==4.1.0"
         },
         "python-dateutil": {
             "hashes": [
@@ -622,10 +623,10 @@
         },
         "requests": {
             "hashes": [
-                "sha256:11e007a8a2aa0323f5a921e9e6a2d7e4e67d9877e85773fba9ba6419025cbeb4",
-                "sha256:9cf5292fcd0f598c671cfc1e0d7d1a7f13bb8085e9a590f48c010551dc6c4b31"
+                "sha256:43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee",
+                "sha256:b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"
             ],
-            "version": "==2.22.0"
+            "version": "==2.23.0"
         },
         "ruamel.yaml": {
             "hashes": [
