@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "792a53fea6c3f53f1954b921f09ee5f1e3ae758b1c3b697af495fa6826fe0363"
+            "sha256": "7a7154a221b1cc3dad4664214e124c3d6eb469a0e14c756315b20fbad24f8a0e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -120,7 +120,7 @@
         },
         "gss-utils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "4942b2b2b1cd0f1f6308454ad39b3513dbe2aab3"
+            "ref": "ae81b94bb0dc2a4a0ef095fe4a970aa12b2d97c6"
         },
         "html2text": {
             "hashes": [
