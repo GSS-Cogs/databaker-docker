@@ -120,7 +120,7 @@
         },
         "gss-utils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "ae81b94bb0dc2a4a0ef095fe4a970aa12b2d97c6"
+            "ref": "b9a6fa3a2560f8905bc49a24208ff647627ba934"
         },
         "html2text": {
             "hashes": [
