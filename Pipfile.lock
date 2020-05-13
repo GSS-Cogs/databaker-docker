@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6a708394efdaabd2508b2809bfeac3bb9e56b97379fad43722379487bc7d493b"
+            "sha256": "67cf3b18026062c6dc56da80d72f20f271633970b5692849ed4998d4c501e7b3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -120,7 +120,7 @@
         },
         "gss-utils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "11419221a1cc8b06fb425eaab965b6cfc9c57545"
+            "ref": "6439568a04c177a117cf8038dbee1678c98df419"
         },
         "html2text": {
             "hashes": [
@@ -694,10 +694,10 @@
         },
         "qtconsole": {
             "hashes": [
-                "sha256:8f5ae5571f0e921db9f2d12613ed667c350ee22c7db598d9bbbe143e8533f932",
-                "sha256:e7882df6e95ec710b5893ec3a7ebfd54e410e63d801e4bbf8c785d74758c2329"
+                "sha256:89442727940126c65c2f94a058f1b4693a0f5d4c4b192fd6518ba3b11f4791aa",
+                "sha256:fd48bf1051d6e69cec1f9e2596cfaa94e3c726c70c5d848681ebce10c029f5fd"
             ],
-            "version": "==4.7.3"
+            "version": "==4.7.4"
         },
         "qtpy": {
             "hashes": [
