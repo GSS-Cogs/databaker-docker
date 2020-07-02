@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ba7a0fbfca42e556d278e85f207f0cf31a0ce560f42d52c6a27b15a7a141b8eb"
+            "sha256": "ad4d519c4b9dbe791316399af1c58e19bda4516d3bc6cd7cebbe7ad3573d7f80"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -135,7 +135,7 @@
         },
         "gss-utils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "1bb4f043b17546457b254810c5f35a4751e2098a"
+            "ref": "906ba7c4f786508355b45d60b6610e2ad9b2512a"
         },
         "html2text": {
             "hashes": [
@@ -507,7 +507,8 @@
         },
         "openpyxl": {
             "hashes": [
-                "sha256:6e62f058d19b09b95d20ebfbfb04857ad08d0833190516c1660675f699c6186f"
+                "sha256:6e62f058d19b09b95d20ebfbfb04857ad08d0833190516c1660675f699c6186f",
+                "sha256:d88dd1480668019684c66cfff3e52a5de4ed41e9df5dd52e008cbf27af0dbf87"
             ],
             "index": "pypi",
             "version": "==3.0.4"
