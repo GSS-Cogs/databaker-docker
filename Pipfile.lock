@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "05f3c19300d38db1bb883d22584da496e1af2606ca0390e607541fe2ef607496"
+            "sha256": "3a6f480effa28f982b2950bec58498e18e5da46709eaad4e710f9bcab834fdb2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -135,7 +135,7 @@
         },
         "gss-utils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "c88dd7ebf965a2ac0c3ad1b22f20eaa3727c112d"
+            "ref": "e165d0002f90aafb89fd8e35d2750a9ff3c402d8"
         },
         "html2text": {
             "hashes": [
@@ -162,10 +162,10 @@
         },
         "ipykernel": {
             "hashes": [
-                "sha256:120d1e7057824a8a73d8b721725393ca7c6562655cdc1d12652316695c8b04c0",
-                "sha256:ca45d173ae9cd4ed8a57980529e1d8d39ea56df5358b8608dbe45733023d8df4"
+                "sha256:0a5f1fc6f63241b9710b5960d314ffe44d8a18bf6674e3f28d2542b192fa318c",
+                "sha256:89dc4bd19c7781f6d7eef0e666c59ce57beac56bb39b511544a71397b7b31cbb"
             ],
-            "version": "==5.3.1"
+            "version": "==5.3.2"
         },
         "ipython": {
             "hashes": [
