@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3d8c68a58815150703d7a4dea5719ae199f5c6371d4ba00bc42dfcc4db9542ba"
+            "sha256": "1d6a01ea25e9181ef1efb0370913db853798ec3cb3fd10c8c8c1dc7bf18f9647"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -135,7 +135,7 @@
         },
         "gss-utils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "2143f8c601940f5e8a97f4f0f4c64a78938b3053"
+            "ref": "b5f7b1c3566a9925892f694a8667f7eb73262b9e"
         },
         "html2text": {
             "hashes": [
@@ -263,11 +263,11 @@
         },
         "jupyterlab": {
             "hashes": [
-                "sha256:61030750b9ff3adecf89e296b936d7c745c4834f9b7df33da5edde7a130a3f95",
-                "sha256:c76f27475374b11634ee1616da14d3dd22be04bc604057858ae878df20e40f7e"
+                "sha256:213f3beb86dd0b628ff08e665312e776be68a1b39f1e6409d210ad24ca8aaef4",
+                "sha256:df4aad970bcf441ce1de206255e56d49638bf6f3c10162fee020fd617e6838bd"
             ],
             "index": "pypi",
-            "version": "==2.2.0"
+            "version": "==2.2.1"
         },
         "jupyterlab-server": {
             "hashes": [
@@ -565,9 +565,9 @@
         },
         "parse": {
             "hashes": [
-                "sha256:a6d4e2c2f1fbde6717d28084a191a052950f758c0cbd83805357e6575c2b95c0"
+                "sha256:cd89e57aed38dcf3e0ff8253f53121a3b23e6181758993323658bffc048a5c19"
             ],
-            "version": "==1.15.0"
+            "version": "==1.16.0"
         },
         "parse-type": {
             "hashes": [
