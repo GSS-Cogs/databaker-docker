@@ -9,7 +9,7 @@ verify_ssl = true
 jupyter = "*"
 jupytext = "*"
 databaker = {git = "https://github.com/GSS-Cogs/databaker.git",ref = "gss_speedup"}
-gss-utils = {git = "https://github.com/GSS-Cogs/gss-utils.git",ref = "v0.8.10"}
+gss-utils = {git = "https://github.com/GSS-Cogs/gss-utils.git",ref = "v0.8.11"}
 pandas = "==0.25.3"
 titlecase = "*"
 behave = "*"
@@ -29,6 +29,7 @@ rdflib = "==4.2.2"
 jupyterlab = "*"
 openpyxl = "*"
 beautifulsoup4 = "*"
+google-cloud-storage = "*"
 
 [requires]
 python_version = "3.7"
