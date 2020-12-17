@@ -1,2 +1,7 @@
 Pipfile.lock: Pipfile
-	docker run -v $(CURDIR):/workspace -w /workspace -e PIPENV_VENV_IN_PROJECT=1 gsscogs/databaker pipenv lock
+	$(eval CID := $(shell docker run -dit --rm python:3.7))
+	docker cp Pipfile $(CID):/Pipfile
+	docker exec $(CID) pip install pipenv
+	docker exec $(CID) pipenv lock
+	docker cp $(CID):/Pipfile.lock Pipfile.lock
+	docker stop $(CID)
