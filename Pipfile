@@ -31,6 +31,7 @@ openpyxl = "*"
 beautifulsoup4 = "*"
 google-cloud-storage = "*"
 selenium = "*"
+backoff = "*"
 
 [requires]
 python_version = "3.7"
