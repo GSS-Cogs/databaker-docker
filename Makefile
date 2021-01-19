@@ -5,3 +5,4 @@ Pipfile.lock: Pipfile
 	docker exec $(CID) pipenv lock
 	docker cp $(CID):/Pipfile.lock Pipfile.lock
 	docker stop $(CID)
+
