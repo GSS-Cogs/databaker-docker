@@ -10,8 +10,8 @@ pylint = "*"
 jupyter = "*"
 jupytext = "*"
 databaker = {git = "https://github.com/GSS-Cogs/databaker.git", ref = "gss_speedup"}
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git@v0.11.0"}
-pandas = "*"
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "pd_downgrade"}
+pandas = "0.25.3"
 titlecase = "*"
 behave = "*"
 fingertips-py = "*"
