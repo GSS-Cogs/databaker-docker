@@ -10,7 +10,7 @@ pylint = "*"
 jupyter = "*"
 jupytext = "*"
 databaker = {git = "https://github.com/GSS-Cogs/databaker.git", ref = "gss_speedup"}
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "pd_downgrade"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.11.0"}
 pandas = "0.25.3"
 titlecase = "*"
 behave = "*"
@@ -35,4 +35,4 @@ selenium = "*"
 backoff = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "3.8"
