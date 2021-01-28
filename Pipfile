@@ -4,13 +4,14 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 jupyter = "*"
 jupytext = "*"
-databaker = {git = "https://github.com/GSS-Cogs/databaker.git",ref = "gss_speedup"}
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git",ref = "v0.10.3"}
-pandas = "==0.25.3"
+databaker = {git = "https://github.com/GSS-Cogs/databaker.git", ref = "gss_speedup"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.11.0"}
+pandas = "0.25.3"
 titlecase = "*"
 behave = "*"
 fingertips-py = "*"
@@ -34,4 +35,4 @@ selenium = "*"
 backoff = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
