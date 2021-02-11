@@ -8,14 +8,9 @@ COPY Pipfile Pipfile.lock ./
 ENV PIP_NO_CACHE_DIR=false
 RUN pip install pipenv
 
-RUN if [ -z "${dev}" ] ; \
-    then \
-        pipenv install --system; \
-    else \
-        pipenv install --system --dev && \
-        apt-get update && \
-        apt-get install gnupg2 -y; \
-    fi
+RUN pipenv install --system --dev
+
+RUN apt-get update && apt-get install gnupg2 -y
 
 COPY cucumber-format.patch /tmp/
 RUN cd /usr/local/lib/python3*/site-packages/behave/formatter \
