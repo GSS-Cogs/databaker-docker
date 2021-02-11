@@ -8,7 +8,7 @@ COPY Pipfile Pipfile.lock ./
 ENV PIP_NO_CACHE_DIR=false
 RUN pip install pipenv
 
-RUN if [ -z "$dev" ] ; \
+RUN if [ -z "${dev}" ] ; \
     then \
         pipenv install --system; \
     else \
