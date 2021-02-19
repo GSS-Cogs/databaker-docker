@@ -211,7 +211,7 @@
         },
         "databaker": {
             "git": "https://github.com/GSS-Cogs/databaker.git",
-            "ref": "864253c1fd53ab18b38a0aaa7ab4737ad82a1aa2"
+            "ref": "5368fb656b6c9553188201f69d6bc4742d9c17c8"
         },
         "decorator": {
             "hashes": [
