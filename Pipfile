@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+airtable-utils = {git = "https://github.com/GSS-Cogs/airtable-utils.git"}
 
 [packages]
 jupyter = "*"
