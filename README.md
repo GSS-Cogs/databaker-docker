@@ -3,7 +3,7 @@ Docker container with Databaker, Jupyter, Pandas and other handy data wrangling 
 
 This container is used by Jenkins and Data Engineers to build/run data pipelines within GSS' IDP Dissemination Branch.
 
-There are three internall hosted by OSS utilities installed along with common python data wrangling tools, these are:
+There are three internally hosted by GSS utilities installed along with common python data wrangling tools, the three packages are:
 * [databaker](https://github.com/GSS-Cogs/databaker)
 * [gss-utils](https://github.com/GSS-Cogs/gss-utils)
 * [reposync](https://github.com/GSS-Cogs/airtable-utils)
