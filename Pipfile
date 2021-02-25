@@ -5,13 +5,13 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
-airtable-utils = {git = "https://github.com/GSS-Cogs/airtable-utils.git"}
+reposync = {git = "https://github.com/GSS-Cogs/airtable-utils.git", ref = "master"}
 
 [packages]
 jupyter = "*"
 jupytext = "*"
-databaker = {git = "https://github.com/GSS-Cogs/databaker.git", ref = "gss_rollback"}
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.12.4"}
+databaker = {git = "https://github.com/GSS-Cogs/databaker.git", ref = "gss_speedup"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.12.5"}
 pandas = "0.25.3"
 titlecase = "*"
 behave = "*"

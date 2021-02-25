@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c36e646df52cb94a84d0af76f3bcb274351465464a55e131ad4a886cc2da5061"
+            "sha256": "41cf2b495db364b012fa8e91d6564c885eddc53ae3c610f5c84b167aa71bfa7e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -211,7 +211,7 @@
         },
         "databaker": {
             "git": "https://github.com/GSS-Cogs/databaker.git",
-            "ref": "15f2c18a6864476eca075b270da201e3adb2e757"
+            "ref": "c691a121b14a6f764a1240c2b21e34511f8332ce"
         },
         "decorator": {
             "hashes": [
@@ -340,7 +340,7 @@
         },
         "gssutils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "8c3ab02e1ed87c95d94bb6cf030dcb9cf814327b"
+            "ref": "ee01eeddd45cc887671c840eb5f8c1ca704c50c3"
         },
         "html2text": {
             "hashes": [
@@ -1624,10 +1624,6 @@
             "index": "pypi",
             "version": "==0.15.1"
         },
-        "airtable-utils": {
-            "git": "https://github.com/GSS-Cogs/airtable-utils.git",
-            "ref": "515249df6ef117886bd9fc84a31f545ada288511"
-        },
         "astroid": {
             "hashes": [
                 "sha256:87ae7f2398b8a0ae5638ddecf9987f081b756e0e9fc071aeebdca525671fc4dc",
@@ -1830,6 +1826,10 @@
             ],
             "index": "pypi",
             "version": "==1.7.0"
+        },
+        "reposync": {
+            "git": "https://github.com/GSS-Cogs/airtable-utils.git",
+            "ref": "515249df6ef117886bd9fc84a31f545ada288511"
         },
         "requests": {
             "hashes": [
