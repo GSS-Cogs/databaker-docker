@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+autopep8 = "*"
 reposync = {git = "https://github.com/GSS-Cogs/airtable-utils.git", ref = "master"}
 
 [packages]
