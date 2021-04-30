@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5599471200bd875a9f8a4fb9ca628450def114734d7959a2e0a1588b9acb5cb6"
+            "sha256": "c78a5239f990cd15eb8def076f15e45ccdec2d3c2892169023984e8529680b84"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -211,7 +211,7 @@
         },
         "databaker": {
             "git": "https://github.com/GSS-Cogs/databaker",
-            "ref": "adbdbc95f8b7794409e8c4dee302c95b39a443c4"
+            "ref": "544cf67b4367b1c344e4954981b8e5f89c94f6cc"
         },
         "decorator": {
             "hashes": [
@@ -1740,7 +1740,7 @@
                 "sha256:0a943902919f65c5684ac4e0154b1ad4fac6dcaa5d9f3426b732f1c8b5419be6",
                 "sha256:2bb1680aad211e3c9944dbce1d4ba09a989f04e238296c87fe2139faa26d655d"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
+            "markers": "python_version >= '3.6' and python_version < '4.0'",
             "version": "==5.8.0"
         },
         "jsonschema": {
