@@ -11,7 +11,7 @@ reposync = {git = "https://github.com/GSS-Cogs/airtable-utils.git", ref = "maste
 [packages]
 jupyter = "*"
 jupytext = "*"
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.12.13"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.12.14"}
 databaker = {git = "https://github.com/GSS-Cogs/databaker", ref = "544cf67b4367b1c344e4954981b8e5f89c94f6cc"}
 pandas = "0.25.3"
 titlecase = "*"
