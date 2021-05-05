@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8477bd3651a0303557d205c935840dca8873a7cd3753a372c63d865314710cb4"
+            "sha256": "20a259e3a2d2dc09885dae531f73871fe5569a80c4d5275c3b2b3c0d5d8de22a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -211,7 +211,7 @@
         },
         "databaker": {
             "git": "https://github.com/GSS-Cogs/databaker",
-            "ref": "544cf67b4367b1c344e4954981b8e5f89c94f6cc"
+            "ref": "bc24db9a106a5a03108a99e5e952056104257b95"
         },
         "decorator": {
             "hashes": [
