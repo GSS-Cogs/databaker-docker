@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: 'Get Previous tag'
+      - name: Get Latest tag
         id: previoustag
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
       
