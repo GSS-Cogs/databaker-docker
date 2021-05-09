@@ -60,8 +60,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            mikeadamss/databaker:${{ steps.previoustag.outputs.tag }}
-            mikeadamss/databaker:latest
+            gsscogs/databaker:${{ steps.previoustag.outputs.tag }}
+            gsscogs/databaker:latest
       
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
