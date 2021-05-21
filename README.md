@@ -30,4 +30,4 @@ Is handled by the github actions defined in `/.github/workflows`. To check build
 
 * `gsscogs/databaker:dev` is built whenever you push or merge a change to master.
 
-_Note: I mean 'release` literally, just adding a tag will **not** trigger a release build._
+_Note: I mean `release` literally, just adding a tag will **not** trigger a release build._
