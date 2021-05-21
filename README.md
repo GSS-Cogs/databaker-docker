@@ -24,7 +24,7 @@ If you need to change a dependency, add it to the `Pipfile` then run `make`. **D
 
 ## Builds & CI
 
-Is handled by the github actions defined in `/.github/workflows`. To check status check click `Actions` above.
+Is handled by the github actions defined in `/.github/workflows`. To check build status click `Actions` above.
 
 * `gsscogs/databaker:latest` and `gsscogs/databaker:<release_tag>` are built when (a) you create a `release` and (b) the commit of the release matches the commit of the master branch.
 
