@@ -5,7 +5,12 @@ ENV PIPENV_TIMEOUT=36000
 COPY Pipfile Pipfile.lock ./
 ENV PIP_NO_CACHE_DIR=false
 RUN pip install pipenv
-RUN pipenv install --system
+
+ARG dev
+RUN if [ "$dev" = "true" ] ; \
+    then pipenv install --system --dev ; \
+    else pipenv install --system ; \
+    fi
 
 COPY cucumber-format.patch /tmp/
 RUN cd /usr/local/lib/python3*/site-packages/behave/formatter \
