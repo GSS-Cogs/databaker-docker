@@ -10,9 +10,9 @@ There are the internally hosted GSS utilities installed along with common python
 
 ## The `gsscogs/dev` container
 
-Is a convenience for local development purposes, this container is customised version of master using the :dev image tag (its essentially the same but also includes those packages listed under `[dev-packages]` in this repos `Pipfile`). 
+Is a convenience for local development purposes, this container is customised version of master using the :dev image tag, additions are:
 
-* Addiitonal Python packages listed under `[dev-packages]` in this repos `Pipfile` are installed.
+* All Python packages listed under `[dev-packages]` in this repos `Pipfile` are installed.
 * The GSS-Cogs tool [reposync](https://github.com/GSS-Cogs/airtable-utils) is also installed.
 * System package gpg2 is installed.
 
