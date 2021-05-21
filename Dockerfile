@@ -7,9 +7,16 @@ ENV PIP_NO_CACHE_DIR=false
 RUN pip install pipenv
 
 ARG dev
+
+# Only install dev package in dev
 RUN if [ "$dev" = "true" ] ; \
     then pipenv install --system --dev ; \
     else pipenv install --system ; \
+    fi
+  
+# Only install gnupg2 in dev
+RUN if [ "$dev" = "true" ] ; \
+    then apt-get update && apt-get install gnupg2 -y \
     fi
 
 COPY cucumber-format.patch /tmp/
