@@ -20,7 +20,7 @@ To use [reposync](https://github.com/GSS-Cogs/airtable-utils), see the reposync 
 
 ## Updating the Pipfile.lock
 
-If you want to add a python package, add it to the `Pipfile` then run `make`. **Do not** run `pipenv install` locally to update it. There are mac os assumptions that we don't want to be making on the linux container environment.
+If you want to add a python package add it to the `Pipfile` then run `make`. **Do not** run `pipenv install` locally to update it. There are mac os assumptions that we don't want to be making on the linux container environment.
 
 ## Builds & CI
 
