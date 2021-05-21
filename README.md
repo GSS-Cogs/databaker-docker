@@ -10,7 +10,7 @@ There are the internally hosted GSS utilities installed along with common python
 
 ## The `gsscogs/dev` container
 
-Is a convenience for local development purposes, this container is customised version of master using the :dev image tag, additions are:
+Is a convenience for local development purposes, this container is a customised version of master using the :dev image tag, additions are:
 
 * All Python packages listed under `[dev-packages]` in this repos `Pipfile` are installed.
 * The GSS-Cogs tool [reposync](https://github.com/GSS-Cogs/airtable-utils) is also installed.
@@ -20,7 +20,7 @@ To use [reposync](https://github.com/GSS-Cogs/airtable-utils), see the reposync 
 
 ## Updating the Pipfile.lock
 
-If you need to change a dependency, add it to the `Pipfile` then run `make`. **Do not** run `pipenv install` locally to update it. There are mac os assumptions that we don't want to be making on the linux container environment.
+If you want to add a python package, add it to the `Pipfile` then run `make`. **Do not** run `pipenv install` locally to update it. There are mac os assumptions that we don't want to be making on the linux container environment.
 
 ## Builds & CI
 
