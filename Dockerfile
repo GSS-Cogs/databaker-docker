@@ -16,7 +16,7 @@ RUN if [ "$dev" = "true" ] ; \
   
 # Only install gnupg2 in dev
 RUN if [ "$dev" = "true" ] ; \
-    then apt-get update && apt-get install gnupg2 -y \
+    then apt-get update && apt-get install gnupg2 -y ; \
     fi
 
 COPY cucumber-format.patch /tmp/
