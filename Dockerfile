@@ -10,8 +10,8 @@ ARG dev
 
 # Only install dev package in dev
 RUN if [ "$dev" = "true" ] ; \
-    then pipenv install --system --dev ; \
-    else pipenv install --system ; \
+    then pipenv install --ignore-pipfile --deploy --system --dev ; \
+    else pipenv install --ignore-pipfile --deploy --system ; \
     fi
   
 # Only install gnupg2 in dev
