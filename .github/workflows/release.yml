@@ -1,11 +1,7 @@
 name: build push release image
 
 on:
-  release:
-    types:
-      - created
-        edited
-        published
+  push
 
 jobs:
   master:
