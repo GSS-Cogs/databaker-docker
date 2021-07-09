@@ -12,7 +12,7 @@ reposync = {git = "https://github.com/GSS-Cogs/airtable-utils.git", ref = "maste
 [packages]
 jupyter = "*"
 jupytext = "*"
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.12.17"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.12.18"}
 databaker = {git = "https://github.com/GSS-Cogs/databaker", ref = "bc24db9a106a5a03108a99e5e952056104257b95"}
 dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", ref = "v0.0.2"}
 detemplater = {git = "https://github.com/GSS-Cogs/de-templater.git", ref = "v0.0.1"}
