@@ -13,10 +13,8 @@ detemplater = {git = "https://github.com/GSS-Cogs/de-templater.git", ref = "v0.0
 [packages]
 jupyter = "*"
 jupytext = "*"
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.12.18"}
-databaker = {git = "https://github.com/GSS-Cogs/databaker", ref = "bc24db9a106a5a03108a99e5e952056104257b95"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.12.19"}
 dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", ref = "v0.0.2"}
-pandas = "0.25.3"
 titlecase = "*"
 behave = "*"
 fingertips-py = "*"
@@ -40,4 +38,4 @@ selenium = "*"
 backoff = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
