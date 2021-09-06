@@ -13,7 +13,7 @@ detemplater = {git = "https://github.com/GSS-Cogs/de-templater.git", ref = "v0.0
 [packages]
 jupyter = "*"
 jupytext = "*"
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.13.2"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.13.3"}
 dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", ref = "v0.0.2"}
 titlecase = "*"
 behave = "*"
