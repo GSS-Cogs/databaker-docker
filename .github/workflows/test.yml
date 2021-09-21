@@ -1,9 +1,9 @@
-name: build push dev image
+name: build push test image
 
 on:
   push:
     branches:
-      - 'dev'
+      - 'test'
 
 jobs:
   dev:
