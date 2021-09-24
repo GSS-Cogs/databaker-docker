@@ -10,7 +10,7 @@ ARG dev
 
 # Only install dev package in dev
 RUN if [ "$dev" = "true" ] ; \
-    then pipenv install --ignore-pipfile --deploy --system --dev ; \
+    then pipenv install --ignore-pipfile --deploy --system --dev --pre ; \
     else pipenv install --ignore-pipfile --deploy --system ; \
     fi
   
