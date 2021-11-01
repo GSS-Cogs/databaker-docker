@@ -13,7 +13,7 @@ detemplater = {git = "https://github.com/GSS-Cogs/de-templater.git", ref = "v0.0
 [packages]
 jupyter = "*"
 jupytext = "*"
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.13.3"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.13.4"}
 dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", ref = "v0.0.2"}
 titlecase = "*"
 behave = "*"
@@ -29,7 +29,6 @@ CacheControl = {extras = ["filecache"],version = "*"}
 airtable-python-wrapper = "*"
 python-jenkins = "*"
 matplotlib = "*"
-rdflib = "==4.2.2"
 jupyterlab = "*"
 openpyxl = "*"
 beautifulsoup4 = "*"
