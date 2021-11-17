@@ -35,6 +35,9 @@ beautifulsoup4 = "*"
 google-cloud-storage = "*"
 selenium = "*"
 backoff = "*"
+csvcubed-models = "*"
+csvcubed-pmd = "*"
+csvcubed = "*"
 
 [requires]
 python_version = "3.9"
