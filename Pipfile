@@ -38,6 +38,7 @@ backoff = "*"
 csvcubed-models = "*"
 csvcubed-pmd = "*"
 csvcubed = "*"
+pyhamcrest="<=2.0.2"
 
 [requires]
 python_version = "3.9"
