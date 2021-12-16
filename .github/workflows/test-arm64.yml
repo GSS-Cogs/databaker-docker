@@ -1,4 +1,4 @@
-name: build push test image
+name: build push test image arm64
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@master
         with:
-          platforms: amd64,arm64
+          platforms: arm64
 
       - name: Set up Docker Buildx
         id: buildx
@@ -34,7 +34,7 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/arm64
           push: true
           build-args: dev=true
           tags: |
