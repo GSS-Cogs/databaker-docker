@@ -1,4 +1,4 @@
-name: build push test image arm64
+name: build push `test` image arm64
 
 on:
   push:

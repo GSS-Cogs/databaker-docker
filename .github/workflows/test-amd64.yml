@@ -1,4 +1,4 @@
-name: build push dev image amd64 (x64)
+name: build push `test` image amd64 (x64)
 
 on:
   push:
