@@ -534,7 +534,7 @@
         },
         "gssutils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "43a84304f577b57365478d6dc2e9f8920a1a53fd"
+            "ref": "829b9329153842f8841591a469ba74636a05370d"
         },
         "h11": {
             "hashes": [
@@ -2482,7 +2482,7 @@
         },
         "gssutils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "43a84304f577b57365478d6dc2e9f8920a1a53fd"
+            "ref": "829b9329153842f8841591a469ba74636a05370d"
         },
         "html2text": {
             "hashes": [
