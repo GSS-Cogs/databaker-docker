@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9182c9378bb1c1c376e2abf5a78aa2a4bde90f779f64c45041aed188f14be50a"
+            "sha256": "aa7115e0c6b2b1ec5b50dfaab62810c4a94256f295ea77d56cbe01b532239903"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -139,11 +139,11 @@
         },
         "cachecontrol": {
             "hashes": [
-                "sha256:b0d43d8f71948ef5ebdee5fe236b86c6ffc7799370453dccb0e894c20dfa487c",
-                "sha256:d8aca75b82eec92d84b5d6eb8c8f66ea16f09d2adb09dbca27fe2d5fc8d3732d"
+                "sha256:10d056fa27f8563a271b345207402a6dcce8efab7e5b377e270329c62471b10d",
+                "sha256:be9aa45477a134aee56c8fac518627e1154df063e85f67d4f83ce0ccc23688e8"
             ],
-            "markers": "python_version >= '3.6'",
-            "version": "==0.12.10"
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==0.12.6"
         },
         "cachetools": {
             "hashes": [
@@ -343,7 +343,7 @@
         },
         "databaker": {
             "git": "git://github.com/GSS-Cogs/databaker.git",
-            "ref": "2ddb86121eb563e3a37ee1106529d8b1da197e31"
+            "ref": "2dc3f373910a657aa506ba96ba0f2f0bdf488522"
         },
         "debugpy": {
             "hashes": [
@@ -528,7 +528,7 @@
         },
         "gssutils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "8ceb44579f4550934dc1325e378b55bb2cbae1c1"
+            "ref": "ee06ae1ae0df2016acbeacdaf04cac3a9f066bda"
         },
         "h11": {
             "hashes": [
@@ -1206,7 +1206,7 @@
                 "sha256:eed2afaa97ec33b4411995be12f8bdb95c87984eaa28d76cf628970c8a2d689a",
                 "sha256:fc7a7d7b0ed72589fd8b8486b9b42a564f10b8762be8bd4d9df94b807af4a089"
             ],
-            "markers": "python_version < '3.11' and python_version >= '3.7'",
+            "markers": "platform_machine != 'aarch64' and platform_machine != 'arm64' and python_version < '3.10'",
             "version": "==1.21.5"
         },
         "odfpy": {
@@ -1517,11 +1517,11 @@
         },
         "pyhamcrest": {
             "hashes": [
-                "sha256:c29dc977154c49e17c30d1ed49a0a6e31cb0dc7bcf733ac4aa9cb58519c2b00c",
-                "sha256:dfb19cf6d71743e086fbb761ed7faea5aacbc8ec10c17a08b93ecde39192a3db"
+                "sha256:412e00137858f04bde0729913874a48485665f2d36fe9ee449f26be864af9316",
+                "sha256:7ead136e03655af85069b6f47b23eb7c3e5c221aa9f022a4fbb499f5b7308f29"
             ],
-            "markers": "python_version >= '3.5'",
-            "version": "==2.0.3"
+            "index": "pypi",
+            "version": "==2.0.2"
         },
         "pyopenssl": {
             "hashes": [
@@ -1772,11 +1772,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:5ec2bbb534ed160b261acbbdd1b463eb3cf52a8d223d96a8ab9981f63798e85c",
-                "sha256:75fd345a47ce3d79595b27bf57e6f49c2ca7904f3c7ce75f8a87012046c86b0b"
+                "sha256:032e5949c02878c405552fb800743aad96940097460bc6f115340402852dcdde",
+                "sha256:989ab2d3e632ba23358b8d43950bd46babde5bbb1516760dc5f5ccfe7accdd45"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==60.0.0"
+            "version": "==60.0.3"
         },
         "six": {
             "hashes": [
@@ -1962,6 +1962,9 @@
             "version": "==4.1.1"
         },
         "urllib3": {
+            "extras": [
+                "secure"
+            ],
             "hashes": [
                 "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
                 "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"
@@ -2252,11 +2255,11 @@
         },
         "cachecontrol": {
             "hashes": [
-                "sha256:b0d43d8f71948ef5ebdee5fe236b86c6ffc7799370453dccb0e894c20dfa487c",
-                "sha256:d8aca75b82eec92d84b5d6eb8c8f66ea16f09d2adb09dbca27fe2d5fc8d3732d"
+                "sha256:10d056fa27f8563a271b345207402a6dcce8efab7e5b377e270329c62471b10d",
+                "sha256:be9aa45477a134aee56c8fac518627e1154df063e85f67d4f83ce0ccc23688e8"
             ],
-            "markers": "python_version >= '3.6'",
-            "version": "==0.12.10"
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==0.12.6"
         },
         "certifi": {
             "hashes": [
@@ -2338,7 +2341,7 @@
         },
         "databaker": {
             "git": "git://github.com/GSS-Cogs/databaker.git",
-            "ref": "2ddb86121eb563e3a37ee1106529d8b1da197e31"
+            "ref": "2dc3f373910a657aa506ba96ba0f2f0bdf488522"
         },
         "decorator": {
             "hashes": [
@@ -2408,7 +2411,7 @@
         },
         "gssutils": {
             "git": "https://github.com/GSS-Cogs/gss-utils.git",
-            "ref": "8ceb44579f4550934dc1325e378b55bb2cbae1c1"
+            "ref": "ee06ae1ae0df2016acbeacdaf04cac3a9f066bda"
         },
         "html2text": {
             "hashes": [
@@ -2454,7 +2457,7 @@
                 "sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7",
                 "sha256:e8443a5e7a020e9d7f97f1d7d9cd17c88bcb3bc7e218bf9cf5095fe550be2951"
             ],
-            "markers": "python_full_version >= '3.6.1' and python_version < '4'",
+            "markers": "python_full_version >= '3.6.1' and python_version < '4.0'",
             "version": "==5.10.1"
         },
         "jedi": {
@@ -2858,7 +2861,7 @@
                 "sha256:eed2afaa97ec33b4411995be12f8bdb95c87984eaa28d76cf628970c8a2d689a",
                 "sha256:fc7a7d7b0ed72589fd8b8486b9b42a564f10b8762be8bd4d9df94b807af4a089"
             ],
-            "markers": "python_version < '3.11' and python_version >= '3.7'",
+            "markers": "platform_machine != 'aarch64' and platform_machine != 'arm64' and python_version < '3.10'",
             "version": "==1.21.5"
         },
         "odfpy": {
@@ -3008,11 +3011,11 @@
         },
         "pyhamcrest": {
             "hashes": [
-                "sha256:c29dc977154c49e17c30d1ed49a0a6e31cb0dc7bcf733ac4aa9cb58519c2b00c",
-                "sha256:dfb19cf6d71743e086fbb761ed7faea5aacbc8ec10c17a08b93ecde39192a3db"
+                "sha256:412e00137858f04bde0729913874a48485665f2d36fe9ee449f26be864af9316",
+                "sha256:7ead136e03655af85069b6f47b23eb7c3e5c221aa9f022a4fbb499f5b7308f29"
             ],
-            "markers": "python_version >= '3.5'",
-            "version": "==2.0.3"
+            "index": "pypi",
+            "version": "==2.0.2"
         },
         "pyjwt": {
             "hashes": [
@@ -3194,11 +3197,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:5ec2bbb534ed160b261acbbdd1b463eb3cf52a8d223d96a8ab9981f63798e85c",
-                "sha256:75fd345a47ce3d79595b27bf57e6f49c2ca7904f3c7ce75f8a87012046c86b0b"
+                "sha256:032e5949c02878c405552fb800743aad96940097460bc6f115340402852dcdde",
+                "sha256:989ab2d3e632ba23358b8d43950bd46babde5bbb1516760dc5f5ccfe7accdd45"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==60.0.0"
+            "version": "==60.0.3"
         },
         "six": {
             "hashes": [
@@ -3257,6 +3260,9 @@
             "version": "==4.1.1"
         },
         "urllib3": {
+            "extras": [
+                "secure"
+            ],
             "hashes": [
                 "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
                 "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"

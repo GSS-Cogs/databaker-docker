@@ -13,7 +13,7 @@ detemplater = {git = "https://github.com/GSS-Cogs/de-templater.git", ref = "v0.0
 [packages]
 jupyter = "*"
 jupytext = "*"
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.13.5"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.13.6"}
 dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", ref = "v0.0.2"}
 titlecase = "*"
 behave = "*"
@@ -37,6 +37,7 @@ backoff = "*"
 csvcubed-models = "*"
 csvcubed-pmd = "*"
 csvcubed = "*"
+pyhamcrest = "<=2.0.2"
 
 [requires]
 python_version = "3.9"
