@@ -25,7 +25,6 @@ python-box = "*"
 html2text = "*"
 chardet = "*"
 SPARQLWrapper = "*"
-CacheControl = {extras = ["filecache"],version = "*"}
 airtable-python-wrapper = "*"
 python-jenkins = "*"
 matplotlib = "*"
@@ -38,7 +37,6 @@ backoff = "*"
 csvcubed-models = "*"
 csvcubed-pmd = "*"
 csvcubed = "*"
-pyhamcrest="<=2.0.2"
 
 [requires]
 python_version = "3.9"
