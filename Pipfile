@@ -33,10 +33,7 @@ openpyxl = "*"
 beautifulsoup4 = "*"
 google-cloud-storage = "*"
 selenium = "*"
-backoff = "*"
-csvcubed-models = "*"
-csvcubed-pmd = "*"
-csvcubed = "*"
+backoff = "*" 
 pyhamcrest = "<=2.0.2"
 
 [requires]
