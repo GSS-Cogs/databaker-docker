@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "databaker-docker"
+version = "1.8.0"
+description = "Environment with Databaker, Jupyter, Pandas and other handy data wrangling tools."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">3.9"
+jupyter = "*"
+jupytext = "*"
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", rev = "v0.13.6"}
+titlecase = "*"
+behave = "*"
+fingertips-py = "*"
+pyexcel-ods = "*"
+pyexcel-odsr = "*"
+pyexcel-text = "*"
+python-box = "*"
+html2text = "*"
+chardet = "*"
+SPARQLWrapper = "*"
+python-jenkins = "*"
+matplotlib = "*"
+jupyterlab = "*"
+openpyxl = "*"
+beautifulsoup4 = "*"
+google-cloud-storage = "*"
+selenium = "*"
+backoff = "*" 
+pyhamcrest = "<=2.0.2"
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+flake8 = "*"
+autopep8 = "*"
+airtable-python-wrapper = "*"
+reposync = {git = "https://github.com/GSS-Cogs/airtable-utils.git", rev = "master"}
+# detemplater = {git = "https://github.com/GSS-Cogs/de-templater.git", rev = "v0.0.1"} # disabled due to version conflicts
+dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", rev = "v0.0.2"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

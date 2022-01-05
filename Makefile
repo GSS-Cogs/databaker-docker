@@ -1,8 +1,8 @@
-Pipfile.lock: Pipfile
+poetry.lock: pyproject.toml
 	$(eval CID := $(shell docker run -dit --rm python:3.9))
-	docker cp Pipfile $(CID):/Pipfile
-	docker exec $(CID) pip install pipenv
-	docker exec $(CID) pipenv lock
-	docker cp $(CID):/Pipfile.lock Pipfile.lock
+	docker cp pyproject.toml $(CID):/pyproject.toml
+	docker exec $(CID) pip install poetry
+	docker exec $(CID) poetry lock
+	docker cp $(CID):/poetry.lock poetry.lock
 	docker stop $(CID)
 
