@@ -1,0 +1,2 @@
+databaker @ git+git://github.com/GSS-Cogs/databaker.git@2dc3f373910a657aa506ba96ba0f2f0bdf488522
+gssutils @ git+git://github.com/GSS-Cogs/gss-utils.git@v0.13.6

@@ -18,9 +18,9 @@ Is a convenience for local development purposes, this container is a customised 
 
 To use [reposync](https://github.com/GSS-Cogs/airtable-utils), see the reposync [README.md](https://github.com/GSS-Cogs/airtable-utils/blob/master/README.md).
 
-## Updating the Pipfile.lock
+## Updating the container's contents
 
-If you want to add a python package add it to the `Pipfile` then run `make`. **Do not** run `pipenv install` locally to update it. There are mac os assumptions that we don't want to be making on the linux container environment.
+If you want to add a python package add it to the `pyproject.toml` then run `make`. **Do not** run `poetry install` locally to update it. There are mac os assumptions that we don't want to be making on the linux container environment.
 
 ## Builds & CI
 

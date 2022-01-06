@@ -1,0 +1,4 @@
+databaker @ git+git://github.com/GSS-Cogs/databaker.git@2dc3f373910a657aa506ba96ba0f2f0bdf488522
+dehelpers @ git+git://github.com/GSS-Cogs/de-helpers.git@v0.0.2
+gssutils @ git+git://github.com/GSS-Cogs/gss-utils.git@v0.13.6
+reposync @ git+git://github.com/GSS-Cogs/airtable-utils.git@master ; python_version >= "3.7"

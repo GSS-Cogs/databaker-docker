@@ -2,16 +2,14 @@ FROM python:3.9
 
 ENV PIPENV_TIMEOUT=36000 
 
-COPY Pipfile Pipfile.lock ./
-ENV PIP_NO_CACHE_DIR=false
-RUN pip install pipenv
+COPY requirements.git.txt requirements.pypi.txt requirements-dev.git.txt requirements-dev.pypi.txt ./
 
 ARG dev
 
 # Only install dev package in dev
 RUN if [ "$dev" = "true" ] ; \
-    then pipenv install --ignore-pipfile --deploy --system --dev --pre ; \
-    else pipenv install --ignore-pipfile --deploy --system ; \
+    then pip install -r requirements-dev.pypi.txt && install -r requirements-dev.git.txt  ; \
+    else pip install -r requirements.pypi.txt && install -r requirements.git.txt ; \
     fi
   
 # Only install gnupg2 in dev

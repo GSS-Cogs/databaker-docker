@@ -8,7 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = ">3.9"
 jupyter = "*"
 jupytext = "*"
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", rev = "v0.13.6"}
+gssutils = {git = "git://github.com/GSS-Cogs/gss-utils.git", rev = "v0.13.6"}
 titlecase = "*"
 behave = "*"
 fingertips-py = "*"
@@ -31,12 +31,13 @@ pyhamcrest = "<=2.0.2"
 
 [tool.poetry.dev-dependencies]
 pylint = "*"
+black = "^21.12b0"
 flake8 = "*"
 autopep8 = "*"
 airtable-python-wrapper = "*"
-reposync = {git = "https://github.com/GSS-Cogs/airtable-utils.git", rev = "master"}
-# detemplater = {git = "https://github.com/GSS-Cogs/de-templater.git", rev = "v0.0.1"} # disabled due to version conflicts
-dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", rev = "v0.0.2"}
+reposync = {git = "git://github.com/GSS-Cogs/airtable-utils.git", rev = "master"}
+# detemplater = {git = "git://github.com/GSS-Cogs/de-templater.git", rev = "v0.0.1"} # disabled due to version conflicts
+dehelpers = {git = "git://github.com/GSS-Cogs/de-helpers.git", rev = "v0.0.2"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
