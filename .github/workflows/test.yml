@@ -3,7 +3,7 @@ name: build push test image
 on:
   push:
     branches:
-      - 'test'
+      - 'master'
 
 jobs:
   dev:

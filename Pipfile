@@ -7,14 +7,18 @@ verify_ssl = true
 pylint = "*"
 flake8 = "*"
 autopep8 = "*"
-reposync = {git = "https://github.com/GSS-Cogs/airtable-utils.git", ref = "master"}
-detemplater = {git = "https://github.com/GSS-Cogs/de-templater.git", ref = "v0.0.1"}
+reposync = { git = "https://github.com/GSS-Cogs/airtable-utils.git", ref = "master" }
+detemplater = { git = "https://github.com/GSS-Cogs/de-templater.git", ref = "v0.0.1" }
+csvcubed-devtools = "v0.1.0-rc5"
 
 [packages]
+dehelpers = { git = "https://github.com/GSS-Cogs/de-helpers.git", ref = "v0.0.2" }
+gssutils = { git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.14.0" }
+csvcubed = "v0.1.0-rc5"
+csvcubed-models = "v0.1.0-rc5"
+csvcubed-pmd = "v0.1.0-rc5"
 jupyter = "*"
 jupytext = "*"
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.13.6"}
-dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", ref = "v0.0.2"}
 titlecase = "*"
 behave = "*"
 fingertips-py = "*"
@@ -33,7 +37,7 @@ openpyxl = "*"
 beautifulsoup4 = "*"
 google-cloud-storage = "*"
 selenium = "*"
-backoff = "*" 
+backoff = "*"
 pyhamcrest = "<=2.0.2"
 
 [requires]
