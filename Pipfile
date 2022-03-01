@@ -39,6 +39,7 @@ google-cloud-storage = "*"
 selenium = "*"
 backoff = "*"
 pyhamcrest = "<=2.0.2"
+vcrpy = "*" # Required by some transformations which use cached HTTP responses
 
 [requires]
 python_version = "3.9"
