@@ -13,7 +13,7 @@ csvcubed-devtools = "v0.1.1"
 
 [packages]
 dehelpers = { git = "https://github.com/GSS-Cogs/de-helpers.git", ref = "v0.0.2" }
-gssutils = { git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.14.4" }
+gssutils = { git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.14.4" } 
 jupyter = "*"
 jupytext = "*"
 titlecase = "*"
