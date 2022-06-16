@@ -9,11 +9,11 @@ flake8 = "*"
 autopep8 = "*"
 reposync = { git = "https://github.com/GSS-Cogs/airtable-utils.git", ref = "master" }
 detemplater = { git = "https://github.com/GSS-Cogs/de-templater.git", ref = "v0.0.2" }
-csvcubed-devtools = "v0.1.0-rc5"
+csvcubed-devtools = "v0.1.1"
 
 [packages]
 dehelpers = { git = "https://github.com/GSS-Cogs/de-helpers.git", ref = "v0.0.2" }
-gssutils = { git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.14.3" }
+gssutils = { git = "https://github.com/GSS-Cogs/gss-utils.git", ref = "v0.14.4" }
 jupyter = "*"
 jupytext = "*"
 titlecase = "*"
