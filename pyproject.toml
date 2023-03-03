@@ -9,13 +9,7 @@ packages = [{include = "databaker_docker"}]
 [tool.poetry.dependencies]
 python = ">=3.9,<3.10"
 dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", tag = "v0.0.2"}
-
-# Unfortunately, gssutils must stick pointing to the `master` branch until such time
-# as de-templaters is either removed or stops defining the `master` branch of 
-# gss-utils as a dependency.
-# N.B. We cannot set `tag = "v0.14.9"`, etc. until this problem is resolved.
-gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", branch = "master"}
-
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", tag = "v0.14.9"}
 jupyter = "*"
 jupytext = "*"
 titlecase = "*"
@@ -46,7 +40,6 @@ pylint = "*"
 flake8 = "*"
 autopep8 = "*"
 reposync = {git = "https://github.com/GSS-Cogs/airtable-utils.git", branch = "master"}
-detemplater = {git = "https://github.com/GSS-Cogs/de-templater.git", tag = "v0.0.2"}
 csvcubed-devtools = ">=v0.1.8"
 
 [build-system]
