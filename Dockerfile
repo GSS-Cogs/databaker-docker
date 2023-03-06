@@ -1,18 +1,18 @@
 FROM python:3.9
 
-ENV PIPENV_TIMEOUT=36000 
-
-COPY Pipfile Pipfile.lock ./
+COPY pyproject.toml poetry.lock ./
 ENV PIP_NO_CACHE_DIR=false
-RUN pip install pipenv
+RUN pip install poetry
 
 ARG dev
 
 # Only install dev package in dev
 RUN if [ "$dev" = "true" ] ; \
-    then pipenv install --ignore-pipfile --deploy --system --dev --pre ; \
-    else pipenv install --ignore-pipfile --deploy --system ; \
+    then poetry export --format requirements.txt --output requirements.txt --without-hashes --with dev ; \
+    else poetry export --format requirements.txt --output requirements.txt --without-hashes ; \
     fi
+
+RUN pip install -r requirements.txt
   
 # Only install gnupg2 in dev
 RUN if [ "$dev" = "true" ] ; \

@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "databaker-docker"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "databaker_docker"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+dehelpers = {git = "https://github.com/GSS-Cogs/de-helpers.git", tag = "v0.0.2"}
+gssutils = {git = "https://github.com/GSS-Cogs/gss-utils.git", tag = "v0.14.9"}
+jupyter = "*"
+jupytext = "*"
+titlecase = "*"
+behave = "*"
+fingertips-py = "*"
+pyexcel-ods = "*"
+pyexcel-odsr = "*"
+pyexcel-text = "*"
+python-box = "*"
+html2text = "*"
+chardet = "*"
+SPARQLWrapper = "*"
+airtable-python-wrapper = "*"
+python-jenkins = "*"
+matplotlib = "*"
+jupyterlab = "*"
+openpyxl = "*"
+beautifulsoup4 = "*"
+google-cloud-storage = "*"
+selenium = "*"
+backoff = "*"
+pyhamcrest = "<=2.0.2"
+vcrpy = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "*"
+flake8 = "*"
+autopep8 = "*"
+reposync = {git = "https://github.com/GSS-Cogs/airtable-utils.git", branch = "master"}
+csvcubed-devtools = ">=v0.1.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
